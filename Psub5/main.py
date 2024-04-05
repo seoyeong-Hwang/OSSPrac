@@ -7,9 +7,13 @@ num = int(input())
 print("학과를 입력하세요: ", end='')
 depart = input()
 
+print("학년을 입력하세요: ", end='')
+grade = input()
+
 print()
 
 print("<출력>")
 print("이름: " + name)
 print("학번: " + str(num))
 print("학과: " + depart)
+print("학년: " + grade)
